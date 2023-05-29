@@ -1,0 +1,15 @@
+.container {
+  background-color: blanchedalmond;
+
+  &__header {
+    background-color: pink;
+  }
+
+  &__sidebar {
+    background-color: rgb(190, 166, 237);
+  }
+
+  &__comic {
+    background-color: white;
+  }
+}

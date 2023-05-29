@@ -1,0 +1,38 @@
+.container {
+  height: 100%;
+}
+.container__header {
+  height: 10%;
+  width: 100%;
+}
+.container__sidebar {
+  height: 100%;
+  width: 10%;
+}
+.container__comic {
+  height: 50%;
+  width: 70%;
+}
+
+.container {
+  background-color: blanchedalmond;
+}
+.container__header {
+  background-color: pink;
+}
+.container__sidebar {
+  background-color: rgb(190, 166, 237);
+}
+.container__comic {
+  background-color: white;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container__sidebar {
+  justify-self: end;
+}/*# sourceMappingURL=index.css.map */
